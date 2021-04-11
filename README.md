@@ -1,5 +1,11 @@
 # Vue dynamic components
 
+### See [online demo](https://thbandrey.github.io/csb-cy6cs/)
+
+### See [demo project repository](https://github.com/THBAndrey/vue-dynamic-components-demo)
+
+### See [demo project codesandbox](https://codesandbox.io/s/github/THBAndrey/vue-dynamic-components-demo)
+
 ## Table of Contents
 
 -   [Vue dynamic components](#vue-dynamic-components)
