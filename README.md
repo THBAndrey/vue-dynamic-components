@@ -52,14 +52,14 @@ wrapperName | String | The name of the wrapper in which you want to display the 
 
 ### Options object
 
-| Property name | Type   | Descrition                                                                  |
-| ------------- | ------ | --------------------------------------------------------------------------- |
-| props         | Object | Props that will be passed to your component                                 |
-| events        | Object | Event handlers that will be passed to your component                        |
-| queue         | String | If you want your components to appear in turn, specify the queue            |
-| type          | String | If you want the same components not to appear, specify the same type        |
-| animation     | String | Each component is wrapped in a "transition", name the animation if you like |
-| refs          | Array  | If you want to close component user refs to get id                          |
+| Property name | Type   | Descrition                                                                          |
+| ------------- | ------ | ----------------------------------------------------------------------------------- |
+| props         | Object | Props that will be passed to your component                                         |
+| events        | Object | Event handlers that will be passed to your component                                |
+| queue         | String | If you want your components to appear in turn, specify the queue                    |
+| type          | String | If you want the same components not to appear multiple times, specify the same type |
+| animation     | String | Each component is wrapped in a transition tag, name the animation if you want       |
+| refs          | Array  | If you want to close component use refs to get id                                   |
 
 ## Hide method
 

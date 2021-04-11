@@ -1,6 +1,6 @@
 {
   "name": "vue-dynamic-components",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Vue dynamic components plugin",
   "main": ".dist/vue-dynamic-components.common.js",
   "repository": "https://github.com/THBAndrey/vue-dynamic-components",
