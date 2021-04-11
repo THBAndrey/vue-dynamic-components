@@ -1,6 +1,6 @@
 import { EventBus, EventBusEvent } from './src/utils/EventBus';
 import Wrapper from './src/components/Wrapper.vue';
-export default function install(Vue, options = {}) {
+export default function install(Vue) {
     Vue.component('dynamic-components-wrapper', Wrapper);
 
     Vue.prototype.$dc = {

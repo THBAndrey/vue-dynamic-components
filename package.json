@@ -1,8 +1,15 @@
 {
   "name": "vue-dynamic-components",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Vue dynamic components plugin",
+  "main": ".dist/vue-dynamic-components.common.js",
+  "repository": "https://github.com/THBAndrey/vue-dynamic-components",
+  "bugs": "https://github.com/THBAndrey/vue-dynamic-components/issues",
+  "files": ["dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

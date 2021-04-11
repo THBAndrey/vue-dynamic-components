@@ -24,7 +24,7 @@ $ yarn add vue-dynamic-components
 
 ```javascript
 import Vue from 'vue';
-import VueDynamicComponents from '../../index';
+import VueDynamicComponents from 'vue-dynamic-components';
 Vue.use(VueDynamicComponents);
 ```
 
