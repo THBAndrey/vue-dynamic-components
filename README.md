@@ -39,7 +39,7 @@ Vue.use(VueDynamicComponents);
 1. Add the `<dynamic-components-wrapper />` where you want (as default to root in App.vue)
 2. Where you want import needed vue component
 3. Call `this.$dc.push(YourVueComponent);`
-4. All components called from `push` has `$hide()` method, use it for close your component from it
+4. All components called from `push` has `$hide()` method, use it of `emit('hide')` for close your component from it.
 
 ## Push method
 

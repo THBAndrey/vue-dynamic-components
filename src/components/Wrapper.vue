@@ -7,7 +7,12 @@
                     :is="item.component"
                     :key="'component' + item.id"
                     v-bind="item.props"
-                    v-on="item.events"
+                    v-on="{
+                        ...item.events,
+                        hide: () => {
+                            this.hideComponent(item.id, name);
+                        }
+                    }"
                 ></component>
             </transition>
         </div>
