@@ -1,11 +1,12 @@
 {
   "name": "vue-dynamic-components",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Vue dynamic components plugin",
-  "main": ".dist/vue-dynamic-components.common.js",
+  "main": "index.js",
   "repository": "https://github.com/THBAndrey/vue-dynamic-components",
   "bugs": "https://github.com/THBAndrey/vue-dynamic-components/issues",
-  "files": ["dist/*",
+  "files": [
+    "dist/*",
     "src/*",
     "*.json",
     "*.js"
@@ -21,5 +22,7 @@
   ],
   "author": "thbandrey",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "tiny-emitter": "^2.1.0"
+  }
 }

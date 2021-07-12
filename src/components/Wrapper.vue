@@ -3,6 +3,7 @@
         <div style="pointer-events: none" v-for="(item, index) in components" :key="'transition' + item.id">
             <transition @after-leave="components.splice(index, 1)" :name="item.animation">
                 <component
+                    style="pointer-events: auto"
                     v-if="item.show && (!item.queue || components.find(component => component.queue == item.queue) == item)"
                     :is="item.component"
                     :key="'component' + item.id"
@@ -10,7 +11,7 @@
                     v-on="{
                         ...item.events,
                         hide: () => {
-                            this.hideComponent(item.id, name);
+                            hideComponent(item.id, name);
                         }
                     }"
                 ></component>
@@ -91,8 +92,5 @@ export default {
 <style>
 .dynamic-components-wrapper {
     pointer-events: none;
-}
-.dynamic-components-wrapper * {
-    pointer-events: auto;
 }
 </style>
