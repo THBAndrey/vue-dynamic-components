@@ -68,8 +68,10 @@ export default {
                 };
 
                 this.components.push(item);
+
                 this.$nextTick(() => {
-                    this.$set(item, 'show', true);
+                    item.show = true;
+                    this.$forceUpdate();
                 });
             }
         },

@@ -1,5 +1,7 @@
 # Vue dynamic components
 
+## Vue3 only now
+
 ### See [online demo](https://thbandrey.github.io/csb-cy6cs/)
 
 ### See [demo project repository](https://github.com/THBAndrey/vue-dynamic-components-demo)
